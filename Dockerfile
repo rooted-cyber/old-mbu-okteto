@@ -1,4 +1,5 @@
 FROM anasty17/mltb:latest
+RUN mkdir /maruf
 WORKDIR /maruf
 
 ENV TZ=Asia/Kolkata
