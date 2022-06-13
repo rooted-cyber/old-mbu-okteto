@@ -1,4 +1,5 @@
 FROM anasty17/mltb:latest
+RUN apt install wget -y
 RUN mkdir /maruf
 WORKDIR /maruf
 RUN cd /maruf;pwd;ls
