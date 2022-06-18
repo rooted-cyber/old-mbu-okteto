@@ -1,4 +1,4 @@
-FROM anasty17/mltb:latest
+FROM arata74/mirrorhunter:latest
 RUN apt install wget -y;apt install curl -y
 RUN mkdir /maruf
 WORKDIR /maruf
