@@ -1,6 +1,6 @@
 FROM theteamultroid/ultroid:main
 
-WORLKDIR /maruf
+WORKDIR /maruf
 
 RUN git clone https://github.com/TeamUltroid/Ultroid
 
