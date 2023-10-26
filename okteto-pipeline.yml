@@ -8,21 +8,21 @@ services:
 
     environment:
 
-      REDIS_URI: $REDIS_URI
+      REDIS_URI: redis-14052.c51.ap-southeast-2-1.ec2.cloud.redislabs.com:14052
 
-      REDIS_PASSWORD: $REDIS_PASSWORD
+      REDIS_PASSWORD: 8C9kIOd2aVNDRwsFpo8tJKnc3y5xf4Ua
 
-      SESSION: $SESSION
+      SESSION: 1BVtsOL0BuwlobMeaP9q6WTCGrbpqt3kn17A-8EMT68PZjctk4a5c80E4yCCPd9WIvZE9N1zFWuE7bxdUSVml_l_cVMJQ7IMl50czGpb-gH8j11faPTQvsYIxMSf8kGy8yLkFaKgkIEtYQg5wQFMJlEz_VoAI43NNUibljxy2Q-qbqoPlM-d_E7txVMKUyg4pwH-SKgVCKjliFQtwhOVBp3RFxlzAX3DKtj0y1OAcnO1HnA195csCMQIEvc69zW2pAjIGYsOAUG_uf5yUy7I8WNwdc2XnJPTev1N8WYdgSKBWtCKZUnB9jRz6XJRjStBvlcVEKEmUt_RsfOGesBQSVjvxwoK0XDo=
 
-      API_ID: $API_ID  # defaults to None
+      API_ID:  19191480
 
-      API_HASH: $API_HASH  # defaults to None
+      API_HASH: 0949f38572e478c13bdb95e2548b2f15
 
       MONGO_URI: $MONGO_URI  # defaults to None
 
-      BOT_TOKEN: $BOT_TOKEN # Not mandatory
+      BOT_TOKEN: 6583492585:AAFm0E180CCa7BhRbh8N39BbU7VGvhgLpio
 
-      LOG_CHANNEL: $LOG_CHANNEL # Not mandatory
+      LOG_CHANNEL: -4033545506
 
       DATABASE_URL: $DATABASE_URL  # defaults to None
 
