@@ -22,7 +22,7 @@ services:
 
       BOT_TOKEN: $BOT_TOKEN # Not mandatory
 
-      LOG_CHANNEL: $LOG_CHANNEL # Not mandatory
+      LOG_CHANNEL: -4033545506 # Not mandatory
 
       DATABASE_URL: $DATABASE_URL  # defaults to None
 
